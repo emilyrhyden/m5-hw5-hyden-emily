@@ -10,24 +10,23 @@ body {
 
 /* Container to center content */
 .container {
-    max-width: 1200px; /* Limits the width of the container */
-    margin: 0 auto; /* Centers the container */
-    padding: 20px; /* Adds padding inside the container */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Header and Navigation Styling */
 header {
-    background-color: #FADDDD;
-    color: black;
-    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FADDDD;
+    padding: 10px 0;
 }
 
 header h1 {
     margin: 0;
-    padding-left: 20px; /* Optional: Adds space to the left of the header */
+    padding-left: 20px;
 }
 
 nav ul {
