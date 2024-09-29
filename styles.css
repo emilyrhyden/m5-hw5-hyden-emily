@@ -1,3 +1,4 @@
+/* General Body Styling */
 body {
     font-family: Arial, sans-serif;
     background-image: url('watercolor.png');
@@ -7,17 +8,32 @@ body {
     padding: 0;
 }
 
+/* Container to center content */
+.container {
+    max-width: 1200px; /* Limits the width of the container */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Adds padding inside the container */
+}
 
+/* Header and Navigation Styling */
 header {
     background-color: #FADDDD;
     color: black;
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px; /* Optional: Adds space to the left of the header */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -30,16 +46,25 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Main Content and Sidebar */
 main {
+    float: left;
+    width: 65%;
     padding: 20px;
+    background-color: #f7d6e0;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 aside {
     float: right;
     width: 30%;
     padding: 20px;
-    background-color: rgb(233, 159, 199);
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    margin: 20px 0;
 }
+
 aside ul {
     list-style-type: none;
     padding: 0;
@@ -55,6 +80,7 @@ aside ul li img {
     height: auto;
 }
 
+/* Footer */
 footer {
     clear: both;
     background-color: #FADDDD;
@@ -66,39 +92,8 @@ footer {
     bottom: 0;
 }
 
+/* Image Styling */
 img {
     max-width: 150px;
     height: auto;
-}
-
-
-#about {
-    background-color: #f7d6e0;
-    padding: 20px; 
-    margin: 20px 0;
-    border-radius: 10px; 
-    float: left; 
-    width: 65%; 
-}
-
-
-aside {
-    float: right; 
-    width: 30%; 
-    padding: 20px;
-    background-color: #e9e9e9;
-    border-radius: 10px; 
-    margin: 20px 0; 
-}
-
-
-footer {
-    clear: both;
-    background-color: #FADDDD;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
